@@ -7,8 +7,7 @@ This project is a real-time hand gesture recognition system that uses computer v
 ## Key Features  
 - Real-time hand gesture recognition  
 - Uses MediaPipe for hand landmark detection  
-- Custom CNN model for gesture classification  
-- Developed and trained on Google Colab  
+- Custom CNN model for gesture classification    
 - Supports multiple gesture categories  
 
 ---
@@ -18,7 +17,8 @@ This project is a real-time hand gesture recognition system that uses computer v
 ### 1. Data Generation (`generate.py`)  
 - Captures hand landmark images using webcam.  
 - Processes and saves landmark images for training.  
-- Supports different hand configurations (left/right, normal/flipped).  
+- Supports different hand configurations (left/right, normal/flipped).
+- A custom dataset of 10,000 images for each number (1 to 5) was created for training. 
 
 ### 2. Model Training (`Project_HGR.ipynb`)  
 - Prepares and preprocesses the image dataset.  
