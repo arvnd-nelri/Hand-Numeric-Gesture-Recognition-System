@@ -30,7 +30,7 @@ This project is a real-time hand gesture recognition system that uses computer v
 `Input -> 4 layers of Conv2D + MaxPooling -> Global Average Pooling -> Dense -> Dropout -> Dense -> Output`  
 
 ### 3. Live Classification (`live_cam_test.py`)  
-- Loads the pre-trained model.  
+- Loads the trained model.  
 - Processes real-time webcam input.  
 - Performs hand gesture recognition.  
 - Displays prediction results.  
