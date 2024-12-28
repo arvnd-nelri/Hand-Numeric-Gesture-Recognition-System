@@ -27,7 +27,7 @@ This project is a real-time hand gesture recognition system that uses computer v
 - Saves the best-performing model.  
 
 **CNN Architecture**:  
-`Input -> Conv2D + MaxPooling (x4) -> Global Average Pooling -> Dense -> Dropout -> Dense -> Output`  
+`Input -> 4 layers of Conv2D + MaxPooling -> Global Average Pooling -> Dense -> Dropout -> Dense -> Output`  
 
 ### 3. Live Classification (`live_cam_test.py`)  
 - Loads the pre-trained model.  
